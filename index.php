@@ -1,3 +1,5 @@
+<?php include("./api.php") ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,7 +13,7 @@
 <body>
     <section id="main">
         <h1><span><img class="logo" src="./assets/images/dsb.png" alt="dsb-logo"></span>Kolding Station</h1>
-        <div id="test"></div>
+        <?php get_dsb_api(); ?>
     </section>
     <script src="./js/scripts.js"></script>
 </body>

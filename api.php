@@ -60,6 +60,4 @@ function get_dsb_api(){
     }
 }
 
-get_dsb_api();
-
 
